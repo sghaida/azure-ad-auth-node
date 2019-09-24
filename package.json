@@ -1,6 +1,9 @@
 {
   "name": "passport-azure-ad-login-oidc",
   "version": "0.0.1",
+  "scripts": {
+    "dev": "nodemon app.js -e js,html"
+  },
   "dependencies": {
     "assert-plus": "*",
     "body-parser": "^1.15.2",
@@ -14,6 +17,10 @@
     "method-override": "^2.3.6",
     "mongoose": "^4.6.2",
     "passport": "*",
-    "passport-azure-ad": "^3.0.12"
+    "passport-azure-ad": "^3.0.12",
+    "restify": "~4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }

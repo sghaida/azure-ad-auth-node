@@ -38,7 +38,7 @@ exports.creds = {
   issuer: null,
 
   // Required to set to true if the `verify` function has 'req' as the first parameter
-  passReqToCallback: false,
+  passReqToCallback: true,
 
   // Recommended to set to true. By default we save state in express session, if this option is set to true, then
   // we encrypt state and save it in cookie instead. This option together with { session: false } allows your app
