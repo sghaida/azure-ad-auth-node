@@ -1,4 +1,6 @@
-const app = require('./app');
+const {app, ensureAuthenticated, log} = require('./app');
+const config = require('./config');
+const passport = require('passport');
 
 app.get('/', (req, res) => {
     res.render('index', { user: req.user });

@@ -92,5 +92,5 @@ function ensureAuthenticated(req, res, next) {
 
 
 
-module.exports = app
+module.exports = {app, ensureAuthenticated, log}
 
