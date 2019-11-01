@@ -3,3 +3,4 @@ this is an update version from the one that microsoft provide, you can refer to 
 1. i needed the JWT token to be exported for user as there is another service that is going to validate that token
 2. package updates
 3. refactor the code to make it more readable
+
